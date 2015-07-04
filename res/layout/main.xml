@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context="br.senac.pi.mastercontas.MainActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/menu_principal"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCadDevedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="selecionaOpcao"
+        android:text="@string/btn_cad_devedor" />
+    
+    <Button
+        android:id="@+id/btnCadDivida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="selecionaOpcao"
+        android:text="@string/btn_cad_divida" />
+    
+    <Button
+        android:id="@+id/btnListaDevedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="selecionaOpcao"
+        android:text="@string/btn_lista_devedores" />
+    
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="selecionaOpcao"
+        android:text="@string/btn_sair" />
+
+</LinearLayout>

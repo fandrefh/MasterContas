@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Master Contas</string>
+    <string name="menu_principal">Menu Principal</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_cad_devedor">Cadastrar Devedor</string>
+    <string name="btn_cad_divida">Cadastrar Dívida</string>
+    <string name="btn_lista_devedores">Lista Devedores</string>
+    <string name="btn_sair">Sair</string>
+    <string name="title_activity_devedor">Cadastro de Devedor</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nome_devedor">Nome</string>
+    <string name="email_devedor">Email</string>
+    <string name="telefone_devedor">Telefone</string>
+    <string name="btn_salvar_devedor">Salvar</string>
+    <string name="mensagem_sucesso">Cadastro realizado com sucesso!</string>
+    <string name="mensagem_erro">Não foi possível realizar o cadastro.</string>
+    <string name="title_activity_lista_devedores">Lista Devedores</string>
+    <string name="novo_devedor">Novo devedor</string>
+    <string name="editar_devedor">Editar devedor</string>
+    <string name="remover_devedor">Remover devedor</string>
+    <string name="acoes_devedor">Ações</string>
+    <string name="confirma_exclusao_devedor">Tem certeza que deseja excluir este registro?</string>
+    <string name="sim_confirmacao">Sim</string>
+    <string name="nao_confirmacao">Não</string>
+
+</resources>
