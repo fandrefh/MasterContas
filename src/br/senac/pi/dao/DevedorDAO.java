@@ -57,6 +57,26 @@ public class DevedorDAO {
 		return listaDevedores;
 	}
 	
+	public void atualizar(int id, Devedor devedor){
+		getDB();
+		
+		ContentValues values = new ContentValues();
+		values.put(DatabaseHelper.Devedor.NOME, devedor.getNome());
+		values.put(DatabaseHelper.Devedor.TELEFONE, devedor.getTelefone());
+		values.put(DatabaseHelper.Devedor.EMAIL, devedor.getEmail());
+	    
+		String idEmString = String.valueOf(id);
+	    db.update(DatabaseHelper.Devedor.TABELA, values, 
+	    		"_id=?", new String[]{idEmString});
+	}
+	
+	public void deletar(String id){
+		getDB();
+		
+		String[] where = { id };
+		db.delete(DatabaseHelper.Devedor.TABELA, "_id=?", where);
+	}
+	
 	public void closeDB() {
 		helper.close();
 	}
